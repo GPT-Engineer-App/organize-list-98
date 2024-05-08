@@ -32,7 +32,7 @@ const Index = () => {
     <Container centerContent maxW="container.md" padding={4}>
       <VStack spacing={4} width="100%">
         <Text fontSize="2xl" fontWeight="bold">
-          Todo List
+          Get Stuff Done, Eventually!
         </Text>
         <Input placeholder="Add a new task!" value={inputValue} onChange={handleInputChange} onKeyPress={handleKeyPress} />
         <IconButton aria-label="Add todo" icon={<FaPlusCircle />} onClick={handleAddTodo} colorScheme="blue" isRound />
