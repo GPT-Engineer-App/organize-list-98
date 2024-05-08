@@ -44,6 +44,9 @@ const Index = () => {
             </ListItem>
           ))}
         </List>
+        <Text fontSize="sm" color="gray.500" width="100%" textAlign="center" marginTop="8">
+          © 2024 Your Company Name
+        </Text>
       </VStack>
     </Container>
   );
