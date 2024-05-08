@@ -34,7 +34,7 @@ const Index = () => {
         <Text fontSize="2xl" fontWeight="bold">
           Todo List
         </Text>
-        <Input placeholder="Add a new task" value={inputValue} onChange={handleInputChange} onKeyPress={handleKeyPress} />
+        <Input placeholder="Add a new task!" value={inputValue} onChange={handleInputChange} onKeyPress={handleKeyPress} />
         <IconButton aria-label="Add todo" icon={<FaPlusCircle />} onClick={handleAddTodo} colorScheme="blue" isRound />
         <List spacing={3} width="100%">
           {todos.map((todo, index) => (
